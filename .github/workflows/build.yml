@@ -18,4 +18,4 @@ jobs:
         pip install --upgrade buildozer cython kivy
     - name: Build Android APK
       run: |
-        yes | buildozer android debug
+        buildozer android debug
