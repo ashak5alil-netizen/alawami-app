@@ -1,7 +1,7 @@
 [app]
-title = My Application
-package.name = myapp
-package.domain = org.test
+title = Alawami App
+package.name = alawamiapp
+package.domain = org.alawami
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
@@ -11,4 +11,3 @@ orientation = portrait
 fullscreen = 0
 android.archs = arm64-v8a, armeabi-v7a
 android.allow_backup = True
-يُرجى استخدام الرم
