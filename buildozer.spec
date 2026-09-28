@@ -11,12 +11,13 @@ orientation = portrait
 fullscreen = 0
 
 android.permissions = READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
-android.api = 33
+
+# الإصدار المستقر والقديم الذي يحتوي على أداة Aidl تلقائياً لمنع الخطأ
+android.api = 31
 android.minapi = 21
-android.sdk = 33
+android.sdk = 31
 android.ndk_api = 21
 android.private_storage = True
 
-# المعمارية المصلحة لمنع التضارب واكتمال الطبخ
 android.archs = arm64-v8a
 android.allow_backup = True
