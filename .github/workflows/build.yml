@@ -11,6 +11,11 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
+    - name: Clear GitHub Actions Cache
+      run: |
+        echo "Cleaning old build logs and caching..."
+        rm -rf ~/.buildozer
+        rm -rf .buildozer/
     - name: Install Tools
       run: |
         sudo apt update
@@ -24,3 +29,4 @@ jobs:
     - name: Build Android APK
       run: |
         buildozer android debug
+يُرج
