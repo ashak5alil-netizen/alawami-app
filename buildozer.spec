@@ -12,7 +12,9 @@ fullscreen = 0
 
 android.permissions = READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
 
-# الإصدار المستقر والقديم الذي يحتوي على أداة Aidl تلقائياً لمنع الخطأ
+# السطر السحري لتخطي رخص غوغل والأندرويد تلقائياً وبدون أسئلة
+android.accept_apk_license = True
+
 android.api = 31
 android.minapi = 21
 android.sdk = 31
