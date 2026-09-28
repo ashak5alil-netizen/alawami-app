@@ -12,12 +12,11 @@ fullscreen = 0
 
 android.permissions = READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
 
-# السطر القاطع اللي يمنع إصدار 37 ويجبره على الاستقرار
+# الصيغة الصحيحة المصلّحة لإجبار الأداة على الإصدار المستقر
 android.build_tools_version = 33.0.0
-
-android.api = 33
+android.api = 31
 android.minapi = 21
-android.sdk = 33
+android.sdk = 31
 android.ndk_api = 21
 android.private_storage = True
 
