@@ -1,11 +1,11 @@
 [app]
 title = ZOKII BUILDER
 package.name = zokiibuilder
-package.domain = org.zokii.builder
+package.domain = com.zokii.builder
 source.dir =.
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py
 version = 1.0
-requirements = python3,kivy,plyer
+requirements = python3,kivy
 orientation = portrait
 fullscreen = 0
 
@@ -15,10 +15,8 @@ android.minapi = 21
 android.sdk = 33
 android.ndk = 25b
 android.build_tools_version = 33.0.2
-android.accept_sdk_license_agreement = True
-android.archs = arm64-v8a, armeabi-v7a
-android.allow_backup = True
-android.private_storage = False
+android.accept_sdk_license_agreements = True
+android.ant = auto
 
 [buildozer]
 log_level = 2
