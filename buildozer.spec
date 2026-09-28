@@ -12,12 +12,12 @@ fullscreen = 0
 
 android.permissions = READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
 
-# السطر السحري لتخطي رخص غوغل والأندرويد تلقائياً وبدون أسئلة
-android.accept_apk_license = True
+# السطر القاطع اللي يمنع إصدار 37 ويجبره على الاستقرار
+android.build_tools_version = 33.0.0
 
-android.api = 31
+android.api = 33
 android.minapi = 21
-android.sdk = 31
+android.sdk = 33
 android.ndk_api = 21
 android.private_storage = True
 
